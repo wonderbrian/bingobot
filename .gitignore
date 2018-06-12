@@ -1,0 +1,5 @@
+cards/**
+config.json
+nohup.out
+node_modules/**
+predictions.txt
