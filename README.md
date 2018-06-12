@@ -20,6 +20,14 @@ There are configuration variables accessible in config.json
 
 You can find someone's user ID by entering `\@username-mention` into chat.
 
+## Bot Commands
+Or "I should have built a `help` command"
+
+* `roll` - Roll Bingo card up to `maxRolls` times.
+* `mypredictions` - List the predictions on your card. Confirmed predictions are indicated.
+* `mycard` - Display in traditional Bingo format
+* `confirm` - Confirm predictions on existing Bingo cards.
+
 ## Dependencies
 bingobot requires `./config.json` and `./predictions.txt` to play.
 
