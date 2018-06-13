@@ -5,7 +5,7 @@ Discord.js bot for Bingo
 bingobot was a sad attempt to generate Bingo cards for the upcoming E3 2018 which was not adopted by guild members. He now exists here for your own enjoyment.
 
 ## Prerequisites
-bingobot requires discord.js, js, and a token for your own Discord bot.
+bingobot requires discord.js, fs, and a token for your own Discord bot.
 
 [How to create a Discord Bot user](https://twentysix26.github.io/Red-Docs/red_guide_bot_accounts/)
 
