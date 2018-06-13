@@ -15,6 +15,8 @@ bingobot requires discord.js, js, and a token for your own Discord bot.
 `cd bingobot`  
 `npm install`  
 
+Make sure to fill out the appropriate information in `./examples/.env.example`
+
 ## Configuration
 There are configuration variables accessible in config.json
 * token - Your bot token
