@@ -14,7 +14,7 @@ client.on("ready", () => {
 
 // Define constants
 const prefix = config.prefix;
-const admins = config.admins;
+const admins = process.env.ADMINS;
 const maxRolls = config.maxRolls;
 const userSelectsCard = config.userSelectsCard;
 
@@ -51,7 +51,7 @@ client.on("message", (message) => {
   // Define variables
   let user = message.member;
   let bingoCard = "./cards/" + message.author.username + ".json";
-  let enrollable = JSON.parse(fs.readFileSync('./config.json')).enrollable;
+  let enrollable = JSON.parse(fs.readFileSync('./config/config.json')).enrollable;
   let content, jsonContent, oldCard;
   var rolls;
   if (fs.existsSync(bingoCard)) {
@@ -195,7 +195,7 @@ client.on("message", (message) => {
         return;
       }
       if (enrollable) {
-        message.author.send("Enrollments are still open. Update config.json to start confirming.");
+        message.author.send("Enrollments are still open. Update `config/config.json` to start confirming.");
         return;
       }
       let confirmed = args.join(" ");
