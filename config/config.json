@@ -1,10 +1,9 @@
 {
-  "token": "null",
-  "prefix": "?",
+  "prefix": "",
   "enrollable": true,
   "maxRolls": 5,
   "userSelectsCard": true,
   "admins": [
-    "<@123>"
+    ""
   ]
 }
