@@ -9,6 +9,12 @@ bingobot requires discord.js, js, and a token for your own Discord bot.
 
 [How to create a Discord Bot user](https://twentysix26.github.io/Red-Docs/red_guide_bot_accounts/)
 
+# Installation
+
+`git clone https://github.com/wonderbrian/bingobot.git`
+`cd bingobot`
+`npm install`
+
 ## Configuration
 There are configuration variables accessible in config.json
 * token - Your bot token
