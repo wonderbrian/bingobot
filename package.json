@@ -1,0 +1,29 @@
+{
+  "name": "bingobot",
+  "version": "1.0.0",
+  "description": "bingobot was a sad attempt to generate Bingo cards for the upcoming E3 2018 which was not adopted by guild members. He now exists here for your own enjoyment.",
+  "main": "bingobot.js",
+  "scripts": {
+    "start": "node bingobot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonderbrian/bingobot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "javascript",
+    "node"
+  ],
+  "author": "WonderBrian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wonderbrian/bingobot/issues"
+  },
+  "homepage": "https://github.com/wonderbrian/bingobot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "dotenv": "^6.0.0"
+  }
+}

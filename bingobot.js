@@ -1,8 +1,12 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const config = require("./config.json");
+const config = require("./config/config.json");
 const timestamp = new Date();
 const fs = require("fs");
+
+// Environment variables
+require('dotenv').config()
+
 
 client.on("ready", () => {
   console.log(timestamp + "\nLet's Play Bingo!");
@@ -223,4 +227,4 @@ client.on("message", (message) => {
   }
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);
