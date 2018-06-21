@@ -37,7 +37,8 @@ Or "I should have built a `help` command"
 * `confirm` - Confirm predictions on existing Bingo cards.
 
 ## Dependencies
-bingobot requires `./config.json` and `./predictions.txt` to play.
+bingobot requires `./config/config.json`, `./.env` and `./predictions.txt` to play.
+You can find an examples of these files in `./examples`.
 
 ## Authors
 **Yuping** -*Initial Work* - [that's me](https://github.com/wonderbrian)
