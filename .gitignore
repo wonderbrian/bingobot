@@ -66,4 +66,6 @@ typings/
 
 # CUSTOM RULES
 cards/*
+config/*
+nohup.out
 predictions.txt

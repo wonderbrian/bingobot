@@ -46,6 +46,10 @@ client.on("message", (message) => {
       args.push(match[1] ? match[1] : match[0]);
     }
   } while (match != null);
+  // Return if only prefix is sent
+  if (string == "") {
+    return;
+  }
   const command = args.shift().toLowerCase();
 
   // Define variables

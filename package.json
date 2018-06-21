@@ -23,8 +23,11 @@
   },
   "homepage": "https://github.com/wonderbrian/bingobot#readme",
   "dependencies": {
+    "bufferutil": "^3.0.5",
     "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.10.0",
     "dotenv": "^6.0.0",
+    "erlpack": "github:discordapp/erlpack",
     "fs": "0.0.1-security"
   }
 }
