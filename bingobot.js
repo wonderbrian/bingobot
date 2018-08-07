@@ -95,7 +95,7 @@ client.on("message", (message) => {
     for (let key of Object.keys(card)) {
       if (card[key]["value"] !== "Free Space") {
         if(card[key]["confirmed"] == true) {
-          string += "~~" + card[key]["value"] + "~~ ✅\n";
+          string += "~~" + card[key]["value"] + "~~ :white_check_mark:\n";
         } else {
           string += card[key]["value"] + "\n";
         }
@@ -215,7 +215,7 @@ client.on("message", (message) => {
           newCard["card"][key] = {};
           newCard["card"][key]["value"] = oldCard[key]["value"];
           if (oldCard[key]["value"].toLowerCase() == confirmed.toLowerCase()) {
-            confirmationMessage += oldCard[key]["value"] + " ✅"
+            confirmationMessage += oldCard[key]["value"] + " :white_check_mark:"
             newCard["card"][key]["confirmed"] = true;
           } else {
             newCard["card"][key]["confirmed"] = oldCard[key]["confirmed"];
